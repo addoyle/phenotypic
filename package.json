@@ -1,0 +1,42 @@
+{
+	"name": "phenotypic",
+	"version": "0.1.0",
+	"author": "Andrew Doyle <support@phenotypicshop.com>",
+	"description": "Unique designs for adorable minds!",
+	"contributors": [
+		{
+			"name": "Andrew Doyle",
+			"email": "andy@phenotypicshop.com"
+		}
+	],
+	"scripts": {
+		"start": "node ./application/server.js",
+		"predeploy": "node ./install/install.js"
+	},
+	"main": "./phenotypic",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/addoyle/phenotypic.git"
+	},
+	"keywords": [
+		"shopping",
+		"adorable",
+		"cart",
+		"store",
+		"stickers",
+		"cute",
+		"plushies"
+	],
+	"dependencies": {
+		"express"		: "3.2.0",
+		"stylus"		: "0.32.1",
+		"connect"		: "2.7.6",
+		"handlebars"	: "1.0.10",
+		"mongoose"		: "3.6.7"
+	},
+	"license": "MIT",
+	"engines": {
+		"node": "0.10.3",
+		"npm": "1.2.14"
+	}
+}
